@@ -7,6 +7,7 @@
 
   imports = [
     ./gnome.nix
+    ./extensions.nix
     ./bash.nix
     ./git.nix
     ./autostart.nix

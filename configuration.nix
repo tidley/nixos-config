@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./modules/desktop.nix
+      ./modules/flatpak.nix
       ./modules/storage.nix
       ./modules/maintenance.nix
       ./modules/shared-home.nix

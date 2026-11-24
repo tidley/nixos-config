@@ -2,6 +2,7 @@
   description = "NixOS workstation configuration";
 
   inputs = {
+    nix-flatpak.url = "github:gmodena/nix-flatpak/v0.6.0";
     nixpkgs.url = "github:NixOS/nixpkgs/0dc498bfe49baeb18b0f9891e800b53bb2603193";
 
     ngit.url = "git+https://ngit.dev/ngit.git?ref=stable&rev=2a19ffadb6320cea4f34c6a240c551219642fcb7";
@@ -12,13 +13,14 @@
     };
   };
 
-  outputs = { self, nixpkgs, ngit, home-manager, ... }: {
+  outputs = { self, nixpkgs, ngit, home-manager, nix-flatpak, ... }: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
 
       modules = [
         ./configuration.nix
         home-manager.nixosModules.default
+        nix-flatpak.nixosModules.nix-flatpak
 
         {
           nix.registry.nixpkgs.flake = nixpkgs;
