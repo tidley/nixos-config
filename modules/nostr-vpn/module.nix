@@ -5,6 +5,8 @@ let
   configFile = "/home/tom/.local/share/nostr-vpn/config.toml";
 in
 {
+  networking.hosts."10.44.138.119" = [ "prox-vpn" "prox.nvpn" "prox.tomdwyer.uk" ];
+
   environment.systemPackages = [
     nvpn
     pkgs.iproute2
