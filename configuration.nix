@@ -15,6 +15,7 @@
       ./modules/shared-home.nix
       ./modules/applications.nix
       ./modules/development.nix
+      ./modules/mender-artifact/module.nix
       ./modules/specialist.nix
       ./modules/utilities.nix
       ./modules/ssvnc/module.nix

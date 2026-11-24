@@ -22,13 +22,13 @@ stdenv.mkDerivation rec {
     openssl
     zlib
     xorg.libX11
-    xorg.libXaw
-    xorg.libXext
-    xorg.libXmu
-    xorg.libXt
-    xorg.libXpm
-    xorg.libSM
-    xorg.libICE
+    libxaw
+    libxext
+    libxmu
+    libxt
+    libxpm
+    libsm
+    libice
   ];
 
   dontUnpack = true;

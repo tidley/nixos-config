@@ -10,7 +10,6 @@
     opencode
 
     # Cloud and synchronisation
-    google-cloud-sdk
     megasync
 
     # Bitcoin and Nostr
