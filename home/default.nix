@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 
 {
   home.username = "tom";
@@ -7,5 +7,8 @@
 
   imports = [
     ./gnome.nix
+    ./bash.nix
+    ./git.nix
+    ./autostart.nix
   ];
 }
