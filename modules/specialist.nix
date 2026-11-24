@@ -2,7 +2,6 @@
 
 {
   programs.steam.enable = true;
-  services.teamviewer.enable = true;
 
   environment.systemPackages = with pkgs; [
     # AI development

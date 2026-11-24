@@ -21,6 +21,7 @@
         "terminator.desktop"
         "org.gnome.Nautilus.desktop"
         "com.slack.Slack.desktop"
+        "ssvnc.desktop"
         "org.keepassxc.KeePassXC.desktop"
         "io.github.quodlibet.QuodLibet.desktop"
         "org.gnome.SystemMonitor.desktop"

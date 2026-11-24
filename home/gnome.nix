@@ -4,6 +4,13 @@
   dconf.enable = true;
 
   dconf.settings = {
+    "org/gnome/desktop/background" = {
+      picture-uri = "";
+      picture-uri-dark = "";
+      primary-color = "#181818";
+      secondary-color = "#181818";
+      color-shading-type = "solid";
+    };
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
       gtk-theme = "Yaru-olive-dark";

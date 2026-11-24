@@ -7,6 +7,7 @@
 
   imports = [
     ./gnome.nix
+    ./mime.nix
     ./extensions.nix
     ./bash.nix
     ./git.nix

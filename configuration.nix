@@ -16,6 +16,8 @@
       ./modules/applications.nix
       ./modules/development.nix
       ./modules/specialist.nix
+      ./modules/utilities.nix
+      ./modules/ssvnc/module.nix
       ./modules/ivpn.nix
       ./modules/nostr-vpn/module.nix
       ./modules/dictation.nix
