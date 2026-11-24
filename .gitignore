@@ -1,0 +1,9 @@
+result
+result-*
+*.bak
+*.tmp
+*.secret
+.env
+.direnv/
+target/
+__pycache__/
