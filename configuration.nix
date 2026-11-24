@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       ./modules/desktop.nix
       ./modules/storage.nix
+      ./modules/maintenance.nix
       ./modules/shared-home.nix
       ./modules/applications.nix
       ./modules/development.nix
